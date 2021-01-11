@@ -1,20 +1,18 @@
-main {
-  display: grid;
-  grid-template-columns: 300px 300px;
-}
 
 .box1 {
 	background: lightcoral;
-	padding: 20px;
-	margin: 5px;
 }
 .box2 {
 	background: lightblue;
-	padding: 20px;
-	margin: 5px;
 }
 .box3 {
 	background: lightgreen;
-	padding: 20px;
-	margin: 5px;
+}
+main {
+  height: 100vh;
+  display: grid;
+  padding: 10px;
+
+  grid-template-columns: 1fr 1fr ;
+  grid-template-rows: 1fr 1fr ;
 }
