@@ -5,10 +5,16 @@ main {
 
 .box1 {
 	background: lightcoral;
+	padding: 20px;
+	margin: 5px;
 }
 .box2 {
 	background: lightblue;
+	padding: 20px;
+	margin: 5px;
 }
 .box3 {
 	background: lightgreen;
+	padding: 20px;
+	margin: 5px;
 }
